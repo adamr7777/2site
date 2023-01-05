@@ -41,14 +41,67 @@ h1 {
 }
 
 
-.caption {
-    margin: 0 25px;
+.align-right {
+    margin-left: auto;
 }
 
+
+.caption {
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 25px;
+    gap: 20px;
+    /* border: 3px dotted green; */
+}
+
+
 .item-img {
+    display: block;
     width: 100%;
 }
 
-.align-right {
-    margin-left: auto;
+
+
+
+.banner {
+    position: absolute;
+    background: #cd6858;
+    padding: 10px;
+    color: whitesmoke;
+    top: 0px;
+    left: 0px;
+}
+
+.item {
+    position: relative;
+    
+}
+
+.btn {
+    background: #cd6858;
+    border: none;
+    padding: 10px 15px;
+    color: whitesmoke;
+    font-weight: 700;
+    cursor: pointer;
+    align-self: center;
+
+}
+
+.modal {
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+    display: flex;
+    background: #dda15e;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+}
+
+.modal img {
+    width: 50%;
+    margin: auto;
 }
