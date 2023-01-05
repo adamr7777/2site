@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #282828;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+nav {
+    background: #282828;
+    color: whitesmoke;
+}
+
+ul { 
+    /* border: 3px dotted red; */
+    display: flex;
+    padding: 25px 25px 25px 25px;
+    list-style-type: none;
+    margin: 0;
+    gap: 10px;
+}
+
+li {
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-right: 10px; */
+}
+
+.icon {
+    width: 25px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+
+
+.caption {
+    margin: 0 25px;
+}
+
+.item-img {
+    width: 100%;
+}
+
+.align-right {
+    margin-left: auto;
+}
